@@ -4,8 +4,13 @@
     "description": "Boiler plate ts project for React js",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
     },
     "author": "Shripada <shripada@robosoftin.com>",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    }
 }
